@@ -1,0 +1,198 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url(/public/assets/image/fundo5.jpg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.logo span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: rgb(170, 20, 20);
+  border: 1px dashed #ffffff;
+  padding: 4px 8px;
+}
+
+main {
+  padding: 20px 40px;
+
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.produto {
+  display: flex;
+ 
+  padding: 10px;
+  max-width: 700px;
+}
+
+.imagem img {
+  width: 500px;
+  height: 300px;
+  
+  
+}
+
+a{
+  color: rgb(202, 221, 26);
+}
+
+.detalhes {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detalhes h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.preco {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.botao {
+  background-color: orange;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 8px 12px;
+ 
+  width: fit-content;
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    width: 1024px;
+}
+
+.ofertas {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.quadros {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quadro-grande {
+
+}
+
+.quadro-grande-img {
+    width: 497px;
+    height: 300px;
+}
+
+.quadros-pequeno {
+    display: flex;
+    gap: 10px;
+}
+
+.quadro-pequeno {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadro-pequeno-img {
+    width: 243px;
+    height: 150px;
+}
+
+.reverse {
+    flex-direction: column-reverse;
+}
+
+@media (max-width: 1024px) {
+    main {
+        width: auto;
+    }
+    
+    .quadro-pequeno-img {
+        width: 497px;
+        height: 300px;
+    }
+
+    .ofertas {
+        flex-direction: column;
+    }
+
+    .quadros-pequeno {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column;
+    }
+}
+
+
+ .button-container {
+      border: 2px dashed rgb(0, 0, 0);
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .button-container a {
+      color: orange;
+      text-decoration: none;
+      font-family: 'Courier New', monospace;
+      font-style: italic;
+      font-size: 14px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+ 
+h2{
+  color: rgb(255, 255, 255);
+}
+
+h3{
+  color: #ffffff;
+}
+
+h1{
+  color: #ffffff;
+}
